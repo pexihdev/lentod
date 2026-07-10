@@ -22,8 +22,8 @@ keywords = [
   "AI",
   "Programming",
   "Open Source",
-  "Technology"
-]
+  "Technology",
+mainSections = ["posts"]]
 author = "Lentod"
 DateFormat = "January 2, 2006"
 
