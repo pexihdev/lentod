@@ -1,0 +1,113 @@
+baseURL = "https://lentod.com/"
+title = "Lentod"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Lentod"
+description = "Lentod - AI, Programming, Open Source, Linux, Cloud and Technology."
+keywords = [
+  "Lentod",
+  "AI",
+  "Programming",
+  "Open Source",
+  "Technology"
+]
+author = "Lentod"
+DateFormat = "January 2, 2006"
+
+defaultTheme = "auto"
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+[params.assets]
+favicon = "/images/favicon.png"
+favicon16x16 = "/images/favicon-16x16.png"
+favicon32x32 = "/images/favicon-32x32.png"
+apple_touch_icon = "/images/apple-touch-icon.png"
+
+[params.label]
+text = "Lentod"
+icon = "/images/logo.png"
+iconHeight = 35
+
+[params.homeInfoParams]
+Title = "Welcome to Lentod 👋"
+Content = "AI, Programming, Open Source, Linux, Cloud Computing and Technology."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lentod1"
+
+[[params.socialIcons]]
+name = "threads"
+url = "https://www.threads.net/@lentod1"
+
+# Upload configuration (dibaca oleh backend Hono)
+[params.upload]
+enabled = true
+provider = "telegram-mtproto"
+endpoint = "https://api.lentod.com/upload"
+maxFileSize = "200MB"
+allowedTypes = [
+  "image/jpeg",
+  "image/png",
+  "image/webp",
+  "image/gif"
+]
+compressImages = true
+autoWebP = true
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
+
+[markup.highlight]
+noClasses = false
