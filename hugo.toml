@@ -22,8 +22,8 @@ keywords = [
   "AI",
   "Programming",
   "Open Source",
-  "Technology",
-mainSections = ["posts"]]
+  "Technology"
+]
 author = "Lentod"
 DateFormat = "January 2, 2006"
 
@@ -69,21 +69,6 @@ url = "https://github.com/lentod1"
 [[params.socialIcons]]
 name = "threads"
 url = "https://www.threads.net/@lentod1"
-
-# Upload configuration (dibaca oleh backend Hono)
-[params.upload]
-enabled = true
-provider = "telegram-mtproto"
-endpoint = "https://api.lentod.com/upload"
-maxFileSize = "200MB"
-allowedTypes = [
-  "image/jpeg",
-  "image/png",
-  "image/webp",
-  "image/gif"
-]
-compressImages = true
-autoWebP = true
 
 [[menu.main]]
 identifier = "posts"
