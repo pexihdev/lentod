@@ -1,4 +1,4 @@
-baseURL = "https://lentod.com/"
+baseURL = "https://pexihdev.github.io/lentod/"
 title = "Lentod"
 theme = "PaperMod"
 paginate = 10
